@@ -1,5 +1,3 @@
-# 2025-IEEE_SciVis-Contest-Mughees
-
 # 🔬 SciVis 2025 – AlloyExplorer
 
 ## 📖 Documentation

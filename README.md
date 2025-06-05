@@ -36,6 +36,7 @@ The project features:
 
 ```
 2025-IEEE_SciVis-Contest-Mughees/
+│
 ├── Data/
 │   └── Dataset_VisContest_Rapid_Alloy_development_v3.txt
 │

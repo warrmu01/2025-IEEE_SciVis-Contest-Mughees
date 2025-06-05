@@ -33,3 +33,45 @@ The project features:
 ---
 
 ## 📁 Project Structure
+
+
+
+
+
+
+## 📊 Dataset
+
+**Title:** Dataset – SciVisContest – Materials Discovery Challenge  
+**DOI:** [10.5281/zenodo.15189444](https://doi.org/10.5281/zenodo.15189444)  
+**Published by:** K. Bugelnig and G. Requena, Nov 14, 2024  
+**Size:** ~223MB  
+**Format:** Text file containing over 100 features related to alloy composition, phase changes, and mechanical properties.
+
+> ⚠️ Do not upload this file to GitHub. Reference the Zenodo link above instead.
+
+---
+
+## 🔗 Core Tasks (from Contest)
+
+### 🧪 Challenge 1: Alloy Space Exploration
+- Visualize high-dimensional input-output relationships
+- Use dimensionality reduction (e.g., PCA, UMAP)
+- Map correlations across scrap mixtures and mechanical properties
+
+### 🧬 Challenge 2: Optimization & Visual Steering
+- Develop visual tools for guiding alloy composition changes
+- Identify stable vs. volatile input regions
+- Support exploratory decision-making through interaction
+
+---
+
+## 📉 Dimensionality Reduction Techniques
+
+We use:
+- **PCA** for linear variance capture
+- **UMAP** for nonlinear structure preservation
+- **t-SNE** (optional) for localized similarity mapping
+
+These help reduce the 100+ parameter space to 2D/3D for easier interpretation and clustering.
+
+---

@@ -34,8 +34,24 @@ The project features:
 
 ## 📁 Project Structure
 
-
-
+```
+2025-IEEE_SciVis-Contest-Mughees/
+├── Data/
+│   └── Dataset_VisContest_Rapid_Alloy_development_v3.txt
+│
+├── Output/
+│
+├── app/
+│   └── streamlit_dashboard.py
+│ 
+├── notebooks/
+│   └── 01_data_exploration.ipynb
+│
+├── scripts/
+│   └── load_and_clean_data.py
+│
+├── README.md
+```
 
 
 
@@ -65,13 +81,3 @@ The project features:
 
 ---
 
-## 📉 Dimensionality Reduction Techniques
-
-We use:
-- **PCA** for linear variance capture
-- **UMAP** for nonlinear structure preservation
-- **t-SNE** (optional) for localized similarity mapping
-
-These help reduce the 100+ parameter space to 2D/3D for easier interpretation and clustering.
-
----

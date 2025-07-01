@@ -5,6 +5,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+## Notes for later. I want to make sure the data used for dashbaord is the clean data. 
+
 st.set_page_config(page_title="Alloy Explorer", layout="wide")
 
 # Load cleaned data
@@ -25,7 +27,6 @@ df = load_data()
 
 
 # Sidebar – Filters
-
 st.sidebar.header("🔍 Filter Alloys")
 
 # Target Property Filters
@@ -51,7 +52,6 @@ st.title("Alloy Explorer Dashboard")
 st.markdown(f"Use case selected: **{scenario}**")
 
 # Apply Filters
-
 filtered_df = df[
     (df["YS(MPa)"] >= ys_range[0]) & (df["YS(MPa)"] <= ys_range[1]) &
     (df["Therm.conductivity(W/(mK))"] >= cond_range[0]) & 
